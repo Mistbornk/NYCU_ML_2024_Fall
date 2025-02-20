@@ -1,0 +1,446 @@
+linear kernel:
+Cross Validation Accuracy = 96.62%
+-s 0 -t 0 -c 0.1 -q -v 3
+Cross Validation Accuracy = 96.86%
+-s 0 -t 0 -c 0.01 -q -v 3
+Cross Validation Accuracy = 96.28%
+-s 0 -t 0 -c 1.0 -q -v 3
+Cross Validation Accuracy = 96.1%
+-s 0 -t 0 -c 10.0 -q -v 3
+optimal accuracy: 96.86
+optimal parameters: -s 0 -t 0 -c 0.01 -q
+Accuracy = 95.96% (2399/2500) (classification)
+
+
+polynomial kernel:
+Cross Validation Accuracy = 89.82%
+-s 0 -t 1 -c 0.01 -d 2 -g 0.0012755102040816326 -r 5 -q -v 3
+Cross Validation Accuracy = 0.3%
+-s 0 -t 1 -c 0.01 -d 2 -g 0.0012755102040816326 -r -5 -q -v 3
+Cross Validation Accuracy = 45.88%
+-s 0 -t 1 -c 0.01 -d 2 -g 0.0012755102040816326 -r 0 -q -v 3
+Cross Validation Accuracy = 92.7%
+-s 0 -t 1 -c 0.01 -d 2 -g 0.0012755102040816326 -r 10 -q -v 3
+Cross Validation Accuracy = 95.36%
+-s 0 -t 1 -c 0.01 -d 2 -g 0.01 -r 5 -q -v 3
+Cross Validation Accuracy = 77.68%
+-s 0 -t 1 -c 0.01 -d 2 -g 0.01 -r 0 -q -v 3
+Cross Validation Accuracy = 95.76%
+-s 0 -t 1 -c 0.01 -d 2 -g 0.01 -r 10 -q -v 3
+Cross Validation Accuracy = 0.2%
+-s 0 -t 1 -c 0.01 -d 2 -g 0.01 -r -5 -q -v 3
+Cross Validation Accuracy = 97.62%
+-s 0 -t 1 -c 0.01 -d 2 -g 0.1 -r 0 -q -v 3
+Cross Validation Accuracy = 97.44%
+-s 0 -t 1 -c 0.01 -d 2 -g 0.1 -r 5 -q -v 3
+Cross Validation Accuracy = 97.3%
+-s 0 -t 1 -c 0.01 -d 2 -g 0.1 -r 10 -q -v 3
+Cross Validation Accuracy = 97.6%
+-s 0 -t 1 -c 0.01 -d 2 -g 1.0 -r -5 -q -v 3
+Cross Validation Accuracy = 97.78%
+-s 0 -t 1 -c 0.01 -d 2 -g 1.0 -r 0 -q -v 3
+Cross Validation Accuracy = 98.04%
+-s 0 -t 1 -c 0.01 -d 2 -g 1.0 -r 5 -q -v 3
+Cross Validation Accuracy = 97.96%
+-s 0 -t 1 -c 0.01 -d 2 -g 1.0 -r 10 -q -v 3
+Cross Validation Accuracy = 10.46%
+-s 0 -t 1 -c 0.01 -d 2 -g 0.1 -r -5 -q -v 3
+Cross Validation Accuracy = 95.14%
+-s 0 -t 1 -c 0.01 -d 3 -g 0.0012755102040816326 -r -5 -q -v 3
+Cross Validation Accuracy = 96.44%
+-s 0 -t 1 -c 0.01 -d 3 -g 0.0012755102040816326 -r 10 -q -v 3
+Cross Validation Accuracy = 95.22%
+-s 0 -t 1 -c 0.01 -d 3 -g 0.0012755102040816326 -r 5 -q -v 3
+Cross Validation Accuracy = 96.56%
+-s 0 -t 1 -c 0.01 -d 3 -g 0.01 -r -5 -q -v 3
+Cross Validation Accuracy = 97.1%
+-s 0 -t 1 -c 0.01 -d 3 -g 0.01 -r 5 -q -v 3
+Cross Validation Accuracy = 97.08%
+-s 0 -t 1 -c 0.01 -d 3 -g 0.01 -r 10 -q -v 3
+Cross Validation Accuracy = 28.9%
+-s 0 -t 1 -c 0.01 -d 3 -g 0.0012755102040816326 -r 0 -q -v 3
+Cross Validation Accuracy = 97.48%
+-s 0 -t 1 -c 0.01 -d 3 -g 0.1 -r 0 -q -v 3
+Cross Validation Accuracy = 68.78%
+-s 0 -t 1 -c 0.01 -d 3 -g 0.1 -r -5 -q -v 3
+Cross Validation Accuracy = 98%
+-s 0 -t 1 -c 0.01 -d 3 -g 0.1 -r 5 -q -v 3
+Cross Validation Accuracy = 97.68%
+-s 0 -t 1 -c 0.01 -d 3 -g 0.1 -r 10 -q -v 3
+Cross Validation Accuracy = 58.82%
+-s 0 -t 1 -c 0.01 -d 3 -g 0.01 -r 0 -q -v 3
+Cross Validation Accuracy = 97.36%
+-s 0 -t 1 -c 0.01 -d 3 -g 1.0 -r 0 -q -v 3
+Cross Validation Accuracy = 96.44%
+-s 0 -t 1 -c 0.01 -d 3 -g 1.0 -r -5 -q -v 3
+Cross Validation Accuracy = 97.76%
+-s 0 -t 1 -c 0.01 -d 3 -g 1.0 -r 5 -q -v 3
+Cross Validation Accuracy = 97.92%
+-s 0 -t 1 -c 0.01 -d 3 -g 1.0 -r 10 -q -v 3
+Cross Validation Accuracy = 95.48%
+-s 0 -t 1 -c 0.1 -d 2 -g 0.0012755102040816326 -r 5 -q -v 3
+Cross Validation Accuracy = 96.28%
+-s 0 -t 1 -c 0.1 -d 2 -g 0.0012755102040816326 -r 10 -q -v 3
+Cross Validation Accuracy = 0.2%
+-s 0 -t 1 -c 0.1 -d 2 -g 0.0012755102040816326 -r -5 -q -v 3
+Cross Validation Accuracy = 45.7%
+-s 0 -t 1 -c 0.1 -d 2 -g 0.0012755102040816326 -r 0 -q -v 3
+Cross Validation Accuracy = 96.78%
+-s 0 -t 1 -c 0.1 -d 2 -g 0.01 -r 5 -q -v 3
+Cross Validation Accuracy = 97.06%
+-s 0 -t 1 -c 0.1 -d 2 -g 0.01 -r 10 -q -v 3
+Cross Validation Accuracy = 94.44%
+-s 0 -t 1 -c 0.1 -d 2 -g 0.01 -r 0 -q -v 3
+Cross Validation Accuracy = 97.78%
+-s 0 -t 1 -c 0.1 -d 2 -g 0.1 -r 0 -q -v 3
+Cross Validation Accuracy = 97.78%
+-s 0 -t 1 -c 0.1 -d 2 -g 0.1 -r 5 -q -v 3
+Cross Validation Accuracy = 0.22%
+-s 0 -t 1 -c 0.1 -d 2 -g 0.01 -r -5 -q -v 3
+Cross Validation Accuracy = 97.54%
+-s 0 -t 1 -c 0.1 -d 2 -g 0.1 -r 10 -q -v 3
+Cross Validation Accuracy = 97.62%
+-s 0 -t 1 -c 0.1 -d 2 -g 1.0 -r -5 -q -v 3
+Cross Validation Accuracy = 97.94%
+-s 0 -t 1 -c 0.1 -d 2 -g 1.0 -r 0 -q -v 3
+Cross Validation Accuracy = 97.72%
+-s 0 -t 1 -c 0.1 -d 2 -g 1.0 -r 5 -q -v 3
+Cross Validation Accuracy = 97.8%
+-s 0 -t 1 -c 0.1 -d 2 -g 1.0 -r 10 -q -v 3
+Cross Validation Accuracy = 96.84%
+-s 0 -t 1 -c 0.1 -d 3 -g 0.0012755102040816326 -r -5 -q -v 3
+Cross Validation Accuracy = 10.36%
+-s 0 -t 1 -c 0.1 -d 2 -g 0.1 -r -5 -q -v 3
+Cross Validation Accuracy = 96.94%
+-s 0 -t 1 -c 0.1 -d 3 -g 0.0012755102040816326 -r 10 -q -v 3
+Cross Validation Accuracy = 96.76%
+-s 0 -t 1 -c 0.1 -d 3 -g 0.0012755102040816326 -r 5 -q -v 3
+Cross Validation Accuracy = 95.56%
+-s 0 -t 1 -c 0.1 -d 3 -g 0.01 -r -5 -q -v 3
+Cross Validation Accuracy = 97.16%
+-s 0 -t 1 -c 0.1 -d 3 -g 0.01 -r 5 -q -v 3
+Cross Validation Accuracy = 97.18%
+-s 0 -t 1 -c 0.1 -d 3 -g 0.01 -r 10 -q -v 3
+Cross Validation Accuracy = 89.24%
+-s 0 -t 1 -c 0.1 -d 3 -g 0.01 -r 0 -q -v 3
+Cross Validation Accuracy = 65.66%
+-s 0 -t 1 -c 0.1 -d 3 -g 0.1 -r -5 -q -v 3
+Cross Validation Accuracy = 97.5%
+-s 0 -t 1 -c 0.1 -d 3 -g 0.1 -r 0 -q -v 3
+Cross Validation Accuracy = 98.06%
+-s 0 -t 1 -c 0.1 -d 3 -g 0.1 -r 5 -q -v 3
+Cross Validation Accuracy = 97.8%
+-s 0 -t 1 -c 0.1 -d 3 -g 0.1 -r 10 -q -v 3
+Cross Validation Accuracy = 28.98%
+-s 0 -t 1 -c 0.1 -d 3 -g 0.0012755102040816326 -r 0 -q -v 3
+Cross Validation Accuracy = 96.6%
+-s 0 -t 1 -c 0.1 -d 3 -g 1.0 -r -5 -q -v 3
+Cross Validation Accuracy = 97.58%
+-s 0 -t 1 -c 0.1 -d 3 -g 1.0 -r 0 -q -v 3
+Cross Validation Accuracy = 97.52%
+-s 0 -t 1 -c 0.1 -d 3 -g 1.0 -r 5 -q -v 3
+Cross Validation Accuracy = 97.86%
+-s 0 -t 1 -c 0.1 -d 3 -g 1.0 -r 10 -q -v 3
+Cross Validation Accuracy = 96.92%
+-s 0 -t 1 -c 1.0 -d 2 -g 0.0012755102040816326 -r 5 -q -v 3
+Cross Validation Accuracy = 96.78%
+-s 0 -t 1 -c 1.0 -d 2 -g 0.0012755102040816326 -r 10 -q -v 3
+Cross Validation Accuracy = 83.9%
+-s 0 -t 1 -c 1.0 -d 2 -g 0.0012755102040816326 -r 0 -q -v 3
+Cross Validation Accuracy = 97.22%
+-s 0 -t 1 -c 1.0 -d 2 -g 0.01 -r 0 -q -v 3
+Cross Validation Accuracy = 0.18%
+-s 0 -t 1 -c 1.0 -d 2 -g 0.0012755102040816326 -r -5 -q -v 3
+Cross Validation Accuracy = 96.94%
+-s 0 -t 1 -c 1.0 -d 2 -g 0.01 -r 5 -q -v 3
+Cross Validation Accuracy = 96.76%
+-s 0 -t 1 -c 1.0 -d 2 -g 0.01 -r 10 -q -v 3
+Cross Validation Accuracy = 97.82%
+-s 0 -t 1 -c 1.0 -d 2 -g 0.1 -r 0 -q -v 3
+Cross Validation Accuracy = 97.86%
+-s 0 -t 1 -c 1.0 -d 2 -g 0.1 -r 5 -q -v 3
+Cross Validation Accuracy = 0.22%
+-s 0 -t 1 -c 1.0 -d 2 -g 0.01 -r -5 -q -v 3
+Cross Validation Accuracy = 97.74%
+-s 0 -t 1 -c 1.0 -d 2 -g 0.1 -r 10 -q -v 3
+Cross Validation Accuracy = 97.46%
+-s 0 -t 1 -c 1.0 -d 2 -g 1.0 -r -5 -q -v 3
+Cross Validation Accuracy = 98.04%
+-s 0 -t 1 -c 1.0 -d 2 -g 1.0 -r 0 -q -v 3
+Cross Validation Accuracy = 97.76%
+-s 0 -t 1 -c 1.0 -d 2 -g 1.0 -r 5 -q -v 3
+Cross Validation Accuracy = 97.8%
+-s 0 -t 1 -c 1.0 -d 2 -g 1.0 -r 10 -q -v 3
+Cross Validation Accuracy = 96.9%
+-s 0 -t 1 -c 1.0 -d 3 -g 0.0012755102040816326 -r -5 -q -v 3
+Cross Validation Accuracy = 96.8%
+-s 0 -t 1 -c 1.0 -d 3 -g 0.0012755102040816326 -r 5 -q -v 3
+Cross Validation Accuracy = 10.46%
+-s 0 -t 1 -c 1.0 -d 2 -g 0.1 -r -5 -q -v 3
+Cross Validation Accuracy = 96.32%
+-s 0 -t 1 -c 1.0 -d 3 -g 0.0012755102040816326 -r 10 -q -v 3
+Cross Validation Accuracy = 93.74%
+-s 0 -t 1 -c 1.0 -d 3 -g 0.01 -r -5 -q -v 3
+Cross Validation Accuracy = 97.18%
+-s 0 -t 1 -c 1.0 -d 3 -g 0.01 -r 5 -q -v 3
+Cross Validation Accuracy = 96.18%
+-s 0 -t 1 -c 1.0 -d 3 -g 0.01 -r 0 -q -v 3
+Cross Validation Accuracy = 96.94%
+-s 0 -t 1 -c 1.0 -d 3 -g 0.01 -r 10 -q -v 3
+Cross Validation Accuracy = 97.56%
+-s 0 -t 1 -c 1.0 -d 3 -g 0.1 -r 0 -q -v 3
+Cross Validation Accuracy = 65.22%
+-s 0 -t 1 -c 1.0 -d 3 -g 0.1 -r -5 -q -v 3
+Cross Validation Accuracy = 97.94%
+-s 0 -t 1 -c 1.0 -d 3 -g 0.1 -r 5 -q -v 3
+Cross Validation Accuracy = 97.84%
+-s 0 -t 1 -c 1.0 -d 3 -g 0.1 -r 10 -q -v 3
+Cross Validation Accuracy = 96.36%
+-s 0 -t 1 -c 1.0 -d 3 -g 1.0 -r -5 -q -v 3
+Cross Validation Accuracy = 97.18%
+-s 0 -t 1 -c 1.0 -d 3 -g 1.0 -r 0 -q -v 3
+Cross Validation Accuracy = 97.82%
+-s 0 -t 1 -c 1.0 -d 3 -g 1.0 -r 5 -q -v 3
+Cross Validation Accuracy = 31.14%
+-s 0 -t 1 -c 1.0 -d 3 -g 0.0012755102040816326 -r 0 -q -v 3
+Cross Validation Accuracy = 98.08%
+-s 0 -t 1 -c 1.0 -d 3 -g 1.0 -r 10 -q -v 3
+Cross Validation Accuracy = 96.68%
+-s 0 -t 1 -c 10.0 -d 2 -g 0.0012755102040816326 -r 5 -q -v 3
+Cross Validation Accuracy = 96.32%
+-s 0 -t 1 -c 10.0 -d 2 -g 0.0012755102040816326 -r 10 -q -v 3
+Cross Validation Accuracy = 95.5%
+-s 0 -t 1 -c 10.0 -d 2 -g 0.0012755102040816326 -r 0 -q -v 3
+Cross Validation Accuracy = 97.9%
+-s 0 -t 1 -c 10.0 -d 2 -g 0.01 -r 0 -q -v 3
+Cross Validation Accuracy = 96.7%
+-s 0 -t 1 -c 10.0 -d 2 -g 0.01 -r 5 -q -v 3
+Cross Validation Accuracy = 96.6%
+-s 0 -t 1 -c 10.0 -d 2 -g 0.01 -r 10 -q -v 3
+Cross Validation Accuracy = 0.18%
+-s 0 -t 1 -c 10.0 -d 2 -g 0.0012755102040816326 -r -5 -q -v 3
+Cross Validation Accuracy = 98.12%
+-s 0 -t 1 -c 10.0 -d 2 -g 0.1 -r 0 -q -v 3
+Cross Validation Accuracy = 97.66%
+-s 0 -t 1 -c 10.0 -d 2 -g 0.1 -r 5 -q -v 3
+Cross Validation Accuracy = 0.22%
+-s 0 -t 1 -c 10.0 -d 2 -g 0.01 -r -5 -q -v 3
+Cross Validation Accuracy = 97.58%
+-s 0 -t 1 -c 10.0 -d 2 -g 0.1 -r 10 -q -v 3
+Cross Validation Accuracy = 97.66%
+-s 0 -t 1 -c 10.0 -d 2 -g 1.0 -r -5 -q -v 3
+Cross Validation Accuracy = 10.44%
+-s 0 -t 1 -c 10.0 -d 2 -g 0.1 -r -5 -q -v 3
+Cross Validation Accuracy = 98.1%
+-s 0 -t 1 -c 10.0 -d 2 -g 1.0 -r 0 -q -v 3
+Cross Validation Accuracy = 97.9%
+-s 0 -t 1 -c 10.0 -d 2 -g 1.0 -r 5 -q -v 3
+Cross Validation Accuracy = 97.86%
+-s 0 -t 1 -c 10.0 -d 2 -g 1.0 -r 10 -q -v 3
+Cross Validation Accuracy = 95.38%
+-s 0 -t 1 -c 10.0 -d 3 -g 0.0012755102040816326 -r -5 -q -v 3
+Cross Validation Accuracy = 96.58%
+-s 0 -t 1 -c 10.0 -d 3 -g 0.0012755102040816326 -r 5 -q -v 3
+Cross Validation Accuracy = 96.14%
+-s 0 -t 1 -c 10.0 -d 3 -g 0.0012755102040816326 -r 10 -q -v 3
+Cross Validation Accuracy = 91.56%
+-s 0 -t 1 -c 10.0 -d 3 -g 0.01 -r -5 -q -v 3
+Cross Validation Accuracy = 97.52%
+-s 0 -t 1 -c 10.0 -d 3 -g 0.01 -r 0 -q -v 3
+Cross Validation Accuracy = 97.16%
+-s 0 -t 1 -c 10.0 -d 3 -g 0.01 -r 5 -q -v 3
+Cross Validation Accuracy = 97.02%
+-s 0 -t 1 -c 10.0 -d 3 -g 0.01 -r 10 -q -v 3
+Cross Validation Accuracy = 97.48%
+-s 0 -t 1 -c 10.0 -d 3 -g 0.1 -r 0 -q -v 3
+Cross Validation Accuracy = 65.54%
+-s 0 -t 1 -c 10.0 -d 3 -g 0.1 -r -5 -q -v 3
+Cross Validation Accuracy = 97.84%
+-s 0 -t 1 -c 10.0 -d 3 -g 0.1 -r 5 -q -v 3
+Cross Validation Accuracy = 97.92%
+-s 0 -t 1 -c 10.0 -d 3 -g 0.1 -r 10 -q -v 3
+Cross Validation Accuracy = 73.4%
+-s 0 -t 1 -c 10.0 -d 3 -g 0.0012755102040816326 -r 0 -q -v 3
+Cross Validation Accuracy = 96.44%
+-s 0 -t 1 -c 10.0 -d 3 -g 1.0 -r -5 -q -v 3
+Cross Validation Accuracy = 97.6%
+-s 0 -t 1 -c 10.0 -d 3 -g 1.0 -r 0 -q -v 3
+Cross Validation Accuracy = 97.72%
+-s 0 -t 1 -c 10.0 -d 3 -g 1.0 -r 5 -q -v 3
+Cross Validation Accuracy = 97.98%
+-s 0 -t 1 -c 10.0 -d 3 -g 1.0 -r 10 -q -v 3
+optimal accuracy: 98.11999999999999
+optimal parameters: -s 0 -t 1 -c 10.0 -d 2 -g 0.1 -r 0 -q
+Accuracy = 97.68% (2442/2500) (classification)
+
+
+RBF kernel:
+Cross Validation Accuracy = 91.72%
+-s 0 -t 2 -c 0.01 -g 0.01 -q -v 3
+Cross Validation Accuracy = 81.2%
+-s 0 -t 2 -c 0.01 -g 0.0012755102040816326 -q -v 3
+Cross Validation Accuracy = 49.86%
+-s 0 -t 2 -c 0.01 -g 0.1 -q -v 3
+Cross Validation Accuracy = 20.86%
+-s 0 -t 2 -c 0.01 -g 1.0 -q -v 3
+Cross Validation Accuracy = 96.14%
+-s 0 -t 2 -c 0.1 -g 0.01 -q -v 3
+Cross Validation Accuracy = 92.56%
+-s 0 -t 2 -c 0.1 -g 0.0012755102040816326 -q -v 3
+Cross Validation Accuracy = 53.12%
+-s 0 -t 2 -c 0.1 -g 0.1 -q -v 3
+Cross Validation Accuracy = 20.6%
+-s 0 -t 2 -c 0.1 -g 1.0 -q -v 3
+Cross Validation Accuracy = 96.22%
+-s 0 -t 2 -c 1.0 -g 0.0012755102040816326 -q -v 3
+Cross Validation Accuracy = 97.78%
+-s 0 -t 2 -c 1.0 -g 0.01 -q -v 3
+Cross Validation Accuracy = 90.84%
+-s 0 -t 2 -c 1.0 -g 0.1 -q -v 3
+Cross Validation Accuracy = 97.24%
+-s 0 -t 2 -c 10.0 -g 0.0012755102040816326 -q -v 3
+Cross Validation Accuracy = 31.24%
+-s 0 -t 2 -c 1.0 -g 1.0 -q -v 3
+Cross Validation Accuracy = 98.02%
+-s 0 -t 2 -c 10.0 -g 0.01 -q -v 3
+Cross Validation Accuracy = 91.4%
+-s 0 -t 2 -c 10.0 -g 0.1 -q -v 3
+Cross Validation Accuracy = 31.38%
+-s 0 -t 2 -c 10.0 -g 1.0 -q -v 3
+optimal accuracy: 98.02
+optimal parameters: -s 0 -t 2 -c 10.0 -g 0.01 -q
+Accuracy = 98.2% (2455/2500) (classification)
+
+
+sigmoid kernel:
+Cross Validation Accuracy = 79.94%
+-s 0 -t 3 -c 0.01 -g 0.0012755102040816326 -r 0 -q -v 3
+Cross Validation Accuracy = 75.46%
+-s 0 -t 3 -c 0.01 -g 0.0012755102040816326 -r -5 -q -v 3
+Cross Validation Accuracy = 82.2%
+-s 0 -t 3 -c 0.01 -g 0.0012755102040816326 -r 5 -q -v 3
+Cross Validation Accuracy = 80.72%
+-s 0 -t 3 -c 0.01 -g 0.0012755102040816326 -r 10 -q -v 3
+Cross Validation Accuracy = 89.08%
+-s 0 -t 3 -c 0.01 -g 0.01 -r 0 -q -v 3
+Cross Validation Accuracy = 39.1%
+-s 0 -t 3 -c 0.01 -g 0.01 -r -5 -q -v 3
+Cross Validation Accuracy = 87.12%
+-s 0 -t 3 -c 0.01 -g 0.01 -r 5 -q -v 3
+Cross Validation Accuracy = 78.22%
+-s 0 -t 3 -c 0.01 -g 0.01 -r 10 -q -v 3
+Cross Validation Accuracy = 73.88%
+-s 0 -t 3 -c 0.01 -g 0.1 -r -5 -q -v 3
+Cross Validation Accuracy = 36.24%
+-s 0 -t 3 -c 0.01 -g 0.1 -r 0 -q -v 3
+Cross Validation Accuracy = 30.32%
+-s 0 -t 3 -c 0.01 -g 0.1 -r 5 -q -v 3
+Cross Validation Accuracy = 63.34%
+-s 0 -t 3 -c 0.01 -g 0.1 -r 10 -q -v 3
+Cross Validation Accuracy = 20.46%
+-s 0 -t 3 -c 0.01 -g 1.0 -r -5 -q -v 3
+Cross Validation Accuracy = 19.14%
+-s 0 -t 3 -c 0.01 -g 1.0 -r 0 -q -v 3
+Cross Validation Accuracy = 18.24%
+-s 0 -t 3 -c 0.01 -g 1.0 -r 5 -q -v 3
+Cross Validation Accuracy = 29.22%
+-s 0 -t 3 -c 0.01 -g 1.0 -r 10 -q -v 3
+Cross Validation Accuracy = 75.88%
+-s 0 -t 3 -c 0.1 -g 0.0012755102040816326 -r -5 -q -v 3
+Cross Validation Accuracy = 89.88%
+-s 0 -t 3 -c 0.1 -g 0.0012755102040816326 -r 0 -q -v 3
+Cross Validation Accuracy = 82.6%
+-s 0 -t 3 -c 0.1 -g 0.0012755102040816326 -r 5 -q -v 3
+Cross Validation Accuracy = 80.84%
+-s 0 -t 3 -c 0.1 -g 0.0012755102040816326 -r 10 -q -v 3
+Cross Validation Accuracy = 94.96%
+-s 0 -t 3 -c 0.1 -g 0.01 -r 0 -q -v 3
+Cross Validation Accuracy = 38.8%
+-s 0 -t 3 -c 0.1 -g 0.01 -r -5 -q -v 3
+Cross Validation Accuracy = 87.44%
+-s 0 -t 3 -c 0.1 -g 0.01 -r 5 -q -v 3
+Cross Validation Accuracy = 80.32%
+-s 0 -t 3 -c 0.1 -g 0.1 -r -5 -q -v 3
+Cross Validation Accuracy = 77.92%
+-s 0 -t 3 -c 0.1 -g 0.01 -r 10 -q -v 3
+Cross Validation Accuracy = 44.88%
+-s 0 -t 3 -c 0.1 -g 0.1 -r 0 -q -v 3
+Cross Validation Accuracy = 30.14%
+-s 0 -t 3 -c 0.1 -g 0.1 -r 5 -q -v 3
+Cross Validation Accuracy = 63.22%
+-s 0 -t 3 -c 0.1 -g 0.1 -r 10 -q -v 3
+Cross Validation Accuracy = 25.48%
+-s 0 -t 3 -c 0.1 -g 1.0 -r -5 -q -v 3
+Cross Validation Accuracy = 19.46%
+-s 0 -t 3 -c 0.1 -g 1.0 -r 0 -q -v 3
+Cross Validation Accuracy = 18.88%
+-s 0 -t 3 -c 0.1 -g 1.0 -r 5 -q -v 3
+Cross Validation Accuracy = 26.68%
+-s 0 -t 3 -c 0.1 -g 1.0 -r 10 -q -v 3
+Cross Validation Accuracy = 76.14%
+-s 0 -t 3 -c 1.0 -g 0.0012755102040816326 -r -5 -q -v 3
+Cross Validation Accuracy = 95.52%
+-s 0 -t 3 -c 1.0 -g 0.0012755102040816326 -r 0 -q -v 3
+Cross Validation Accuracy = 82.26%
+-s 0 -t 3 -c 1.0 -g 0.0012755102040816326 -r 5 -q -v 3
+Cross Validation Accuracy = 80.64%
+-s 0 -t 3 -c 1.0 -g 0.0012755102040816326 -r 10 -q -v 3
+Cross Validation Accuracy = 95.62%
+-s 0 -t 3 -c 1.0 -g 0.01 -r 0 -q -v 3
+Cross Validation Accuracy = 39.52%
+-s 0 -t 3 -c 1.0 -g 0.01 -r -5 -q -v 3
+Cross Validation Accuracy = 87.3%
+-s 0 -t 3 -c 1.0 -g 0.01 -r 5 -q -v 3
+Cross Validation Accuracy = 77.5%
+-s 0 -t 3 -c 1.0 -g 0.1 -r -5 -q -v 3
+Cross Validation Accuracy = 78.34%
+-s 0 -t 3 -c 1.0 -g 0.01 -r 10 -q -v 3
+Cross Validation Accuracy = 33.98%
+-s 0 -t 3 -c 1.0 -g 0.1 -r 0 -q -v 3
+Cross Validation Accuracy = 29.8%
+-s 0 -t 3 -c 1.0 -g 0.1 -r 5 -q -v 3
+Cross Validation Accuracy = 63.36%
+-s 0 -t 3 -c 1.0 -g 0.1 -r 10 -q -v 3
+Cross Validation Accuracy = 23.76%
+-s 0 -t 3 -c 1.0 -g 1.0 -r -5 -q -v 3
+Cross Validation Accuracy = 20.08%
+-s 0 -t 3 -c 1.0 -g 1.0 -r 0 -q -v 3
+Cross Validation Accuracy = 19.96%
+-s 0 -t 3 -c 1.0 -g 1.0 -r 5 -q -v 3
+Cross Validation Accuracy = 25.96%
+-s 0 -t 3 -c 1.0 -g 1.0 -r 10 -q -v 3
+Cross Validation Accuracy = 96.96%
+-s 0 -t 3 -c 10.0 -g 0.0012755102040816326 -r 0 -q -v 3
+Cross Validation Accuracy = 75.8%
+-s 0 -t 3 -c 10.0 -g 0.0012755102040816326 -r -5 -q -v 3
+Cross Validation Accuracy = 82.54%
+-s 0 -t 3 -c 10.0 -g 0.0012755102040816326 -r 5 -q -v 3
+Cross Validation Accuracy = 80.82%
+-s 0 -t 3 -c 10.0 -g 0.0012755102040816326 -r 10 -q -v 3
+Cross Validation Accuracy = 93.04%
+-s 0 -t 3 -c 10.0 -g 0.01 -r 0 -q -v 3
+Cross Validation Accuracy = 57.5%
+-s 0 -t 3 -c 10.0 -g 0.01 -r -5 -q -v 3
+Cross Validation Accuracy = 87.34%
+-s 0 -t 3 -c 10.0 -g 0.01 -r 5 -q -v 3
+Cross Validation Accuracy = 78.26%
+-s 0 -t 3 -c 10.0 -g 0.01 -r 10 -q -v 3
+Cross Validation Accuracy = 77.1%
+-s 0 -t 3 -c 10.0 -g 0.1 -r -5 -q -v 3
+Cross Validation Accuracy = 47.02%
+-s 0 -t 3 -c 10.0 -g 0.1 -r 0 -q -v 3
+Cross Validation Accuracy = 30.04%
+-s 0 -t 3 -c 10.0 -g 0.1 -r 5 -q -v 3
+Cross Validation Accuracy = 63.02%
+-s 0 -t 3 -c 10.0 -g 0.1 -r 10 -q -v 3
+Cross Validation Accuracy = 24.86%
+-s 0 -t 3 -c 10.0 -g 1.0 -r -5 -q -v 3
+Cross Validation Accuracy = 20.18%
+-s 0 -t 3 -c 10.0 -g 1.0 -r 0 -q -v 3
+Cross Validation Accuracy = 19.76%
+-s 0 -t 3 -c 10.0 -g 1.0 -r 5 -q -v 3
+Cross Validation Accuracy = 25.86%
+-s 0 -t 3 -c 10.0 -g 1.0 -r 10 -q -v 3
+optimal accuracy: 96.96000000000001
+optimal parameters: -s 0 -t 3 -c 10.0 -g 0.0012755102040816326 -r 0 -q
+Accuracy = 95.92% (2398/2500) (classification)

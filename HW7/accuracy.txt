@@ -1,0 +1,17 @@
+PCA: 90.00%
+
+LDA: 83.33%
+
+kernel_PCA: 
+	Linear: 83.33%
+	RBF: gamma=1e-9, 80.00%
+	Linear+RBF: 83.33%
+	Polynomial: 86.67%
+	Sigmoid: 83.33%
+
+kernel LDA:
+	Linear: 80.00%
+	RBF: 66.67%
+	Linear+RBF: 66.67%
+	Polynomial: 80.00%
+	Sigmoid: 83.33%

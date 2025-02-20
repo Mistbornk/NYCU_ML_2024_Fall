@@ -1,0 +1,106 @@
+def Compare_Best_parameters(X_train, Y_train, parameters, optimal_parameters, optimal_accuracy):
+	"""計算並比較當前參數組合的準確率，更新最佳參數與準確率"""
+	accuracy = svm_train(Y_train, X_train, parameters)
+	return (parameters, accuracy) if accuracy > optimal_accuracy else (optimal_parameters, optimal_accuracy)
+
+def Grid_Search(X_train, Y_train, kernel_type):
+    print(f'\n{["linear", "polynomial", "RBF", "sigmoid"][kernel_type]} kernel:')
+    
+    cost = np.array([0.001, 0.01, 0.1, 1, 10, 100])
+    degree = np.array([1, 2, 3, 4])
+    gamma = np.array([0.0001, 1/784, 0.01, 0.1, 1, 10])
+    coefficient = np.array([-10, -5, 0, 5, 10])
+    
+    optimal_parameters = f'-s 0 -v 3 -q'
+    optimal_accuracy = 0.0
+
+    if kernel_type == 0:  # linear
+        for c in cost:
+            parameters = f'-s 0 -t {kernel_type} -c {c} -q -v 3'
+            print(parameters)
+            optimal_parameters, optimal_accuracy = Compare_Best_parameters(X_train, Y_train, parameters, optimal_parameters, optimal_accuracy)
+
+    elif kernel_type == 1:  # polynomial
+        for c in cost:
+            for d in degree:
+                for g in gamma:
+                    for r in coefficient:
+                        parameters = f'-s 0 -t {kernel_type} -c {c} -d {d} -g {g} -r {r} -q -v 3'
+                        print(parameters)
+                        optimal_parameters, optimal_accuracy = Compare_Best_parameters(X_train, Y_train, parameters, optimal_parameters, optimal_accuracy)
+
+    elif kernel_type == 2:  # RBF
+        for c in cost:
+            for g in gamma:
+                parameters = f'-s 0 -t {kernel_type} -c {c} -g {g} -q -v 3'
+                optimal_parameters, optimal_accuracy = Compare_Best_parameters(X_train, Y_train, parameters, optimal_parameters, optimal_accuracy)
+
+    elif kernel_type == 3:  # sigmoid
+        for c in cost:
+            for g in gamma:
+                for r in coefficient:
+                    parameters = f'-s 0 -t {kernel_type} -c {c} -g {g} -r {r} -q -v 3'
+                    print(parameters)
+                    optimal_parameters, optimal_accuracy = Compare_Best_parameters(X_train, Y_train, parameters, optimal_parameters, optimal_accuracy)
+    
+    optimal_parameters = optimal_parameters[:-5]    #remove -v
+    print(f"optimal accuracy: {optimal_accuracy}")
+    print(f"optimal parameters: {optimal_parameters}")
+    
+    return optimal_parameters
+
+#def Grid_Search(X_train, Y_train, kernel_type):
+#    """
+#    根據 kernel 類型進行 grid search 以尋找最佳參數
+#    kernel_type: 0 (linear), 1 (polynomial), 2 (RBF), 3 (sigmoid)
+#    """
+#    cost = [0.001, 0.01, 0.1, 1, 10, 100]
+#    kernel_params = {
+#        0: {},  # linear 不需要額外參數
+#        1: {'degree': [1, 2, 3, 4], 'gamma': [0.0001, 1/784, 0.01, 0.1, 1, 10], 'r': [-10, -5, 0, 5, 10]},
+#        2: {'gamma': [0.0001, 1/784, 0.01, 0.1, 1, 10]},
+#        3: {'gamma': [0.0001, 1/784, 0.01, 0.1, 1, 10], 'r': [-10, -5, 0, 5, 10]},
+#    }
+
+#    # 初始化最佳參數與準確率
+#    optimal_option = '-s 0 -v 3 -q'
+#    optimal_accuracy = 0
+#    param_combinations = [{}]
+
+#    # 生成所有參數組合
+#    for key, values in kernel_params.get(kernel_type, {}).items():
+#        param_combinations = [dict(opt, **{key: val}) for opt in param_combinations for val in values]
+
+#    print(f'\n{["linear", "polynomial", "RBF", "sigmoid"][kernel_type]} kernel:')
+    
+#    # 測試所有參數組合
+#    for c in cost:
+#        for params in param_combinations:
+#            option = f'-s 0 -t {kernel_type} -c {c} ' + ' '.join([f'-{k[0]} {v}' for k, v in params.items()]) + ' -q -v 3'
+#            print(option)  # 輸出測試的參數組合
+#            optimal_option, optimal_accuracy = Compare_Best_Option(X_train, Y_train, option, optimal_option, optimal_accuracy)
+
+#    # 移除 -v 並返回最佳參數
+#    optimal_option = optimal_option[:-5]
+#    print(f'Best Accuracy: {optimal_accuracy}')
+#    print(f'Best Option: {optimal_option}')
+#    return optimal_option
+
+
+
+linear kernel:
+Cross Validation Accuracy = 96.66%
+-s 0 -t 0 -c 0.01 -q -v 3
+Cross Validation Accuracy = 97.02%
+-s 0 -t 0 -c 0.1 -q -v 3
+Cross Validation Accuracy = 95.3%
+-s 0 -t 0 -c 0.001 -q -v 3
+Cross Validation Accuracy = 96.1%
+-s 0 -t 0 -c 1.0 -q -v 3
+Cross Validation Accuracy = 96.24%
+-s 0 -t 0 -c 10.0 -q -v 3
+Cross Validation Accuracy = 96.06%
+-s 0 -t 0 -c 100.0 -q -v 3
+optimal accuracy: 97.02
+optimal parameters: -s 0 -t 0 -c 0.1 -q
+Accuracy = 95.8% (2395/2500) (classification)
